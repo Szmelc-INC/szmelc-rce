@@ -1,5 +1,4 @@
 # Maintainer: Szmelc-INC <dev@szmelc.com>
-# Contributor: CYBERSZP0NT <https://github.com/CYBERSZP0NT>
 #
 # Arch package for Szmelc-RCE — self-hostable browser remote-control
 # extension (MV3) plus its bridge backends (Node and PHP).
@@ -25,7 +24,7 @@ pkgver=1.1.0
 pkgrel=1
 pkgdesc="Self-hostable browser remote-control extension (MV3) + Node/PHP bridge backends"
 arch=('any')
-url="https://github.com/CYBERSZP0NT/szmelc-rce"
+url="https://github.com/Szmelc-INC/szmelc-rce"
 license=('MIT')
 depends=('nodejs' 'php')
 makedepends=('python')  # scripts/build.mjs zips via python3 -m zipfile
@@ -88,7 +87,7 @@ EOS
     install -Dm644 /dev/stdin "$pkgdir/usr/lib/systemd/system/szmelc-rce-backend.service" <<'EOS'
 [Unit]
 Description=Szmelc-RCE backend (browser remote-control bridge)
-Documentation=https://github.com/CYBERSZP0NT/szmelc-rce/blob/main/backend/README.md
+Documentation=https://github.com/Szmelc-INC/szmelc-rce/blob/main/backend/README.md
 After=network-online.target
 Wants=network-online.target
 

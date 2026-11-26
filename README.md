@@ -196,10 +196,10 @@ and registers the native-messaging hosts system-wide for Chromium and Chrome.
 maintain: the Node backend vendors `ws`, the PHP backend needs only `php`):
 
 ```sh
-nix build github:CYBERSZP0NT/szmelc-rce            # extension → ./result/share/szmelc-rce/extension
-nix build github:CYBERSZP0NT/szmelc-rce#backend-node
-nix build github:CYBERSZP0NT/szmelc-rce#backend-php
-nix develop github:CYBERSZP0NT/szmelc-rce          # devshell (node, php, python, zip)
+nix build github:Szmelc-INC/szmelc-rce            # extension → ./result/share/szmelc-rce/extension
+nix build github:Szmelc-INC/szmelc-rce#backend-node
+nix build github:Szmelc-INC/szmelc-rce#backend-php
+nix develop github:Szmelc-INC/szmelc-rce          # devshell (node, php, python, zip)
 ```
 
 ```nix
