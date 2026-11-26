@@ -4,7 +4,7 @@
 
 Szmelc-RCE is a browser remote-control extension: a successful attacker can
 read pages, click, type, and exfiltrate data. Please report vulnerabilities
-privately via [GitHub Security Advisories](https://github.com/CYBERSZP0NT/szmelc-rce/security/advisories/new)
+privately via [GitHub Security Advisories](https://github.com/Szmelc-INC/szmelc-rce/security/advisories/new)
 instead of opening a public issue.
 
 ## Known incident: CRX signing key committed to git history

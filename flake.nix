@@ -12,7 +12,7 @@
 
       meta = with nixpkgs.lib; {
         description = "Szmelc-RCE — self-hostable browser remote-control extension + bridge backends";
-        homepage = "https://github.com/CYBERSZP0NT/szmelc-rce";
+        homepage = "https://github.com/Szmelc-INC/szmelc-rce";
         license = licenses.mit;
         platforms = platforms.all;
       };
@@ -166,7 +166,7 @@
           config = mkIf cfg.enable {
             systemd.services.szmelc-rce-backend = {
               description = "Szmelc-RCE backend (browser remote-control bridge)";
-              documentation = [ "https://github.com/CYBERSZP0NT/szmelc-rce/blob/main/backend/README.md" ];
+              documentation = [ "https://github.com/Szmelc-INC/szmelc-rce/blob/main/backend/README.md" ];
               after = [ "network-online.target" ];
               wants = [ "network-online.target" ];
               wantedBy = [ "multi-user.target" ];
